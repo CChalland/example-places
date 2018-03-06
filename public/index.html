@@ -39,10 +39,10 @@
 
 <template id="home-page">
   <div class="container">
-  <!--   <h1>{{ welcome }}</h1> -->
-    <input type="text" v-model="searchPlace" placeholder="Enter Product's Description">
+    <h1>{{ welcome }}</h1>
+    <input type="text" v-model="searchPlace" placeholder="Enter Place's Description">
     <div id="map"></div>
-<!--     <div v-for="place in places">
+    <div v-for="place in places">
       <div class="media">
         <img class="mr-3" src="https://image.iol.co.za/image/1/process/620x349?source=https://inm-baobab-prod-eu-west-1.s3.amazonaws.com/public/inm/media/2017/07/31/iol/101/Big-Hole.jpg&operation=CROP&offset=0x47&resize=850x476" alt="Generic placeholder image">
         <div class="media-body">
@@ -68,6 +68,6 @@
         Place's Address: <input type="text" v-model="chngePlace.address">
         <button v-on:click="changePlace()">Change Place's Info</button>
       </div>
-    </form> -->
+    </form>
   </div>
 </template>
