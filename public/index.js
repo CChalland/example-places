@@ -103,7 +103,7 @@ var HomePage = {
       });
     }
   },
-  mounted: function() {
+  created: function() {
     axios.get("/places").then(
       function(response) {
         this.places = response.data;
